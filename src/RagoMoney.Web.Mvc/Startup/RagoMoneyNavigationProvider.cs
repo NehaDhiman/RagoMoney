@@ -44,15 +44,128 @@ namespace RagoMoney.Web.Startup
                         icon: "local_offer",
                         requiredPermissionName: PermissionNames.Pages_Roles
                     )
-                )
-                .AddItem(
+                ).AddItem(
                     new MenuItemDefinition(
                         PageNames.About,
                         L("About"),
                         url: "About",
                         icon: "info"
                     )
-                ).AddItem( //Menu items below is just for demonstration!
+                ).AddItem(
+                    new MenuItemDefinition(
+                        PageNames.RetailersDetails,
+                         new FixedLocalizableString("Retailers Details"),
+                        url: "RetailersDetails",
+                        icon: "people",
+                        requiredPermissionName: PermissionNames.Pages_Distributor
+                    )
+                ).AddItem(
+                        new MenuItemDefinition(
+                            "Transaction",
+                            new FixedLocalizableString("Transaction"),
+                            icon: "menu",
+                            requiredPermissionName: PermissionNames.Pages_Distributor
+                        ).AddItem(
+                            new MenuItemDefinition(
+                                "Option1",
+                                new FixedLocalizableString("Option1"),
+                                url: "#"
+                            )
+                        ).AddItem(
+                            new MenuItemDefinition(
+                                "Option2",
+                                new FixedLocalizableString("Option2"),
+                                url: "#"
+                            )
+                        ).AddItem(
+                            new MenuItemDefinition(
+                                "Option3",
+                                new FixedLocalizableString("Option3"),
+                                url: "#"
+                            )
+                        )
+                    ).AddItem(
+                        new MenuItemDefinition(
+                            "ReportBalance",
+                            new FixedLocalizableString("Report Balance"),
+                            icon: "menu",
+                            requiredPermissionName: PermissionNames.Pages_Distributor
+                        ).AddItem(
+                            new MenuItemDefinition(
+                                "CashCollection",
+                                new FixedLocalizableString("Cash Collection"),
+                                url: "#"
+                            )
+                        ).AddItem(
+                            new MenuItemDefinition(
+                                "LiveSale",
+                                new FixedLocalizableString("Live Sale"),
+                                url: "#"
+                            )
+                        ).AddItem(
+                            new MenuItemDefinition(
+                                "MRPSale",
+                                new FixedLocalizableString("MRP Sale"),
+                                url: "#"
+                            )
+                        ).AddItem(
+                            new MenuItemDefinition(
+                                "PendingPaymentRequest",
+                                new FixedLocalizableString("Pending Payment Request"),
+                                url: "#"
+                            )
+                        ).AddItem(
+                            new MenuItemDefinition(
+                                "MarginRegister",
+                                new FixedLocalizableString("Margin Register"),
+                                url: "#"
+                            )
+                        )
+                    ).AddItem(
+                        new MenuItemDefinition(
+                            "Invoice",
+                            new FixedLocalizableString("Invoice"),
+                            icon: "menu",
+                            requiredPermissionName: PermissionNames.Pages_Distributor
+                        ).AddItem(
+                            new MenuItemDefinition(
+                                "CashSummary",
+                                new FixedLocalizableString("Cash Summary"),
+                                url: "#"
+                            )
+                        ).AddItem(
+                            new MenuItemDefinition(
+                                "GSTInvoice",
+                                new FixedLocalizableString("GST Invoice"),
+                                url: "#"
+                            )
+                        )
+                    ).AddItem(
+                        new MenuItemDefinition(
+                            "Accounts",
+                            new FixedLocalizableString("Accounts"),
+                            icon: "menu",
+                            requiredPermissionName: PermissionNames.Pages_Distributor
+                        ).AddItem(
+                            new MenuItemDefinition(
+                                "MyLedger",
+                                new FixedLocalizableString("My Ledger"),
+                                url: "#"
+                            )
+                        ).AddItem(
+                            new MenuItemDefinition(
+                                "RetailerLedger",
+                                new FixedLocalizableString("Retailer Ledger"),
+                                url: "#"
+                            )
+                        ).AddItem(
+                            new MenuItemDefinition(
+                                "PaymentLedger",
+                                new FixedLocalizableString("Payment Ledger"),
+                                url: "#"
+                            )
+                        )
+                    ).AddItem( //Menu items below is just for demonstration!
                     new MenuItemDefinition(
                         "MultiLevelMenu",
                         L("MultiLevelMenu"),
