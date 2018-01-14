@@ -12,15 +12,25 @@ namespace RagoMoney.Web.Startup
         public override void SetNavigation(INavigationProviderContext context)
         {
             context.Manager.MainMenu
+                //.AddItem(
+                //    new MenuItemDefinition(
+                //        PageNames.Home,
+                //        L("HomePage"),
+                //        url: "",
+                //        icon: "home",
+                //        requiresAuthentication: true
+                //    )
+                //)
                 .AddItem(
                     new MenuItemDefinition(
-                        PageNames.Home,
-                        L("HomePage"),
-                        url: "",
+                        PageNames.Dashboard,
+                        new FixedLocalizableString("Dashboard"),
+                        url: "Dashboard",
                         icon: "home",
                         requiresAuthentication: true
                     )
-                ).AddItem(
+                )
+                .AddItem(
                     new MenuItemDefinition(
                         PageNames.Tenants,
                         L("Tenants"),

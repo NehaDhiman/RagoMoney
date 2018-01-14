@@ -8,5 +8,6 @@
 
         public const string Pages_Roles = "Pages.Roles";
         public const string Pages_Distributor = "Pages.Distributor";
+        public const string Pages_Retailer = "Pages.Retailer";
     }
 }

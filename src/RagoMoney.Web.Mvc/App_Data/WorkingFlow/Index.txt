@@ -14,4 +14,10 @@ Requirements:
 Working:
 1. A new Role & Permission (" Distributor ") is created and assigned to Default tenant.
 2. New items were added to left menu for Distributor Permission Name.
-3. 
+3. A new Role & Permission ("Retailer") is created.
+4. Created a user and assign Retailer role to him.
+
+
+Folder : Retailer:
+1. Images shows different navigations for portal.
+2. Depending upon the screens the next working is going on.
