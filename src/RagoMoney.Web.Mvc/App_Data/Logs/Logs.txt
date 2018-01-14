@@ -8641,3 +8641,169 @@ INFO  2018-01-14 16:47:54,623 [28   ] ore.Mvc.Internal.ControllerActionInvoker -
 INFO  2018-01-14 16:47:54,642 [37   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action RagoMoney.Web.Controllers.AccountController.Login (RagoMoney.Web.Mvc) in 5649.0412ms
 INFO  2018-01-14 16:47:54,663 [37   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5717.0498ms 500 application/json; charset=utf-8
 INFO  2018-01-14 16:47:54,676 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1028.5322ms 500 application/json; charset=utf-8
+DEBUG 2018-01-14 22:38:02,667 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-01-14 22:38:06,280 [1    ] Abp.Modules.AbpModuleManager             - Found 14 ABP modules in total.
+DEBUG 2018-01-14 22:38:06,297 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: RagoMoney.Web.Startup.RagoMoneyWebMvcModule, RagoMoney.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-14 22:38:06,301 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: RagoMoney.RagoMoneyWebCoreModule, RagoMoney.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-14 22:38:06,301 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: RagoMoney.RagoMoneyApplicationModule, RagoMoney.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-14 22:38:06,302 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: RagoMoney.RagoMoneyCoreModule, RagoMoney.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-14 22:38:06,302 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-14 22:38:06,303 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-14 22:38:06,303 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-14 22:38:06,304 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-14 22:38:06,305 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: RagoMoney.EntityFrameworkCore.RagoMoneyEntityFrameworkModule, RagoMoney.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-14 22:38:06,305 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-14 22:38:06,306 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-14 22:38:06,306 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-14 22:38:06,306 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-14 22:38:06,307 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-14 22:38:06,317 [1    ] Abp.Modules.AbpModuleManager             - 14 modules loaded.
+DEBUG 2018-01-14 22:38:06,594 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-01-14 22:38:06,595 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-01-14 22:38:06,595 [1    ] o.Configuration.LanguageManagementConfig - Converted RagoMoney (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-01-14 22:38:06,595 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-01-14 22:38:07,697 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: RagoMoney.EntityFrameworkCore.RagoMoneyDbContext, RagoMoney.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-01-14 22:38:09,517 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-01-14 22:38:09,890 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-01-14 22:38:09,927 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-01-14 22:38:09,962 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: RagoMoney
+DEBUG 2018-01-14 22:38:09,967 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-01-14 22:38:10,306 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-01-14 22:38:10,474 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2018-01-14 22:38:10,474 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - RagoMoney.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-01-14 22:38:10,478 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - RagoMoney.Users.Dto.CreateUserDto
+DEBUG 2018-01-14 22:38:10,479 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - RagoMoney.Users.Dto.UserDto
+DEBUG 2018-01-14 22:38:10,479 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - RagoMoney.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-01-14 22:38:10,479 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - RagoMoney.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-01-14 22:38:10,479 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - RagoMoney.Roles.Dto.CreateRoleDto
+DEBUG 2018-01-14 22:38:10,479 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - RagoMoney.Roles.Dto.PermissionDto
+DEBUG 2018-01-14 22:38:10,479 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - RagoMoney.Roles.Dto.RoleDto
+DEBUG 2018-01-14 22:38:10,480 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - RagoMoney.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-01-14 22:38:10,480 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - RagoMoney.MultiTenancy.Dto.TenantDto
+DEBUG 2018-01-14 22:38:10,480 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - RagoMoney.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+INFO  2018-01-14 22:38:24,257 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2018-01-14 22:38:29,802 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method RagoMoney.Web.Controllers.HomeController.Index (RagoMoney.Web.Mvc) with arguments ((null)) - ModelState is Valid
+INFO  2018-01-14 22:38:40,749 [4    ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Home/Index.cshtml.
+INFO  2018-01-14 22:38:41,103 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action RagoMoney.Web.Controllers.HomeController.Index (RagoMoney.Web.Mvc) in 11531.4339ms
+INFO  2018-01-14 22:38:41,127 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 17038.7171ms 200 text/html; charset=utf-8
+INFO  2018-01-14 22:38:41,263 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/css/skel.css  
+INFO  2018-01-14 22:38:41,265 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/css/style.css  
+INFO  2018-01-14 22:38:41,268 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/js/skel.min.js  
+INFO  2018-01-14 22:38:41,414 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/style.css was not modified
+INFO  2018-01-14 22:38:41,437 [17   ] NetCore.StaticFiles.StaticFileMiddleware - The file /js/skel.min.js was not modified
+INFO  2018-01-14 22:38:41,445 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 256.8653ms 304 application/javascript
+INFO  2018-01-14 22:38:41,492 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/skel.css was not modified
+INFO  2018-01-14 22:38:41,499 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 245.7595ms 304 text/css
+INFO  2018-01-14 22:38:41,524 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/js/jquery.dropotron.min.js  
+INFO  2018-01-14 22:38:41,617 [4    ] NetCore.StaticFiles.StaticFileMiddleware - The file /js/jquery.dropotron.min.js was not modified
+INFO  2018-01-14 22:38:41,643 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 248.4143ms 304 application/javascript
+INFO  2018-01-14 22:38:41,664 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/js/skel-layers.min.js  
+INFO  2018-01-14 22:38:41,665 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 312.3617ms 304 text/css
+INFO  2018-01-14 22:38:41,712 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/js/init.js  
+INFO  2018-01-14 22:38:41,733 [17   ] NetCore.StaticFiles.StaticFileMiddleware - The file /js/skel-layers.min.js was not modified
+INFO  2018-01-14 22:38:41,752 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /js/init.js was not modified
+INFO  2018-01-14 22:38:41,780 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/images/placeholder.png  
+INFO  2018-01-14 22:38:41,821 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 157.0772ms 304 application/javascript
+INFO  2018-01-14 22:38:41,844 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /images/placeholder.png was not modified
+INFO  2018-01-14 22:38:41,858 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 82.7429ms 304 image/png
+INFO  2018-01-14 22:38:41,877 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/css/style-1.css  
+INFO  2018-01-14 22:38:42,015 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 158.0525ms 304 application/javascript
+INFO  2018-01-14 22:38:42,032 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/css/style-wide.css  
+INFO  2018-01-14 22:38:42,074 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/style-1.css was not modified
+INFO  2018-01-14 22:38:42,082 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 227.1875ms 304 text/css
+INFO  2018-01-14 22:38:42,083 [4    ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/style-wide.css was not modified
+INFO  2018-01-14 22:38:42,128 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 300.5808ms 304 text/css
+INFO  2018-01-14 22:38:42,234 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/css/font-awesome.min.css  
+INFO  2018-01-14 22:38:42,256 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/font-awesome.min.css was not modified
+INFO  2018-01-14 22:38:42,274 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 49.7292ms 304 text/css
+INFO  2018-01-14 22:38:42,331 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/fontawesome/fontawesome-webfont.woff?v=4.0.3  
+INFO  2018-01-14 22:38:42,333 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/images/banner.jpg  
+INFO  2018-01-14 22:38:42,410 [17   ] NetCore.StaticFiles.StaticFileMiddleware - The file /fonts/fontawesome/fontawesome-webfont.woff was not modified
+INFO  2018-01-14 22:38:42,440 [4    ] NetCore.StaticFiles.StaticFileMiddleware - The file /images/banner.jpg was not modified
+INFO  2018-01-14 22:38:42,482 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 131.0774ms 304 image/jpeg
+INFO  2018-01-14 22:38:42,490 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 96.9456ms 304 application/font-woff
+INFO  2018-01-14 22:38:57,867 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Account/Login  
+INFO  2018-01-14 22:39:00,359 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method RagoMoney.Web.Controllers.AccountController.Login (RagoMoney.Web.Mvc) with arguments (, , ) - ModelState is Valid
+INFO  2018-01-14 22:39:00,946 [17   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Account/Login.cshtml.
+INFO  2018-01-14 22:39:05,510 [17   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action RagoMoney.Web.Controllers.AccountController.Login (RagoMoney.Web.Mvc) in 7495.2655ms
+INFO  2018-01-14 22:39:05,557 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7669.779ms 200 text/html; charset=utf-8
+INFO  2018-01-14 22:39:05,648 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636515662903077598  
+INFO  2018-01-14 22:39:05,696 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/font-awesome/css/font-awesome.css?v=hV_VC0V8Ve6q7RuiCZLgT6h-XqNj1K0nygP48EUvYxg  
+INFO  2018-01-14 22:39:05,703 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/Components/TenantChange/Default.js?v=636515663454949631  
+INFO  2018-01-14 22:39:05,729 [21   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/font-awesome/css/font-awesome.css was not modified
+INFO  2018-01-14 22:39:05,780 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/css/style.css?v=lXOsAnxzMtVwvrNJvYpRTrDiDmhBb9UAk8bJeDe1hAM  
+INFO  2018-01-14 22:39:05,789 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636515662903077598  
+INFO  2018-01-14 22:39:05,801 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/style.css was not modified
+INFO  2018-01-14 22:39:05,876 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 157.3649ms 304 text/css
+INFO  2018-01-14 22:39:05,994 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 217.4157ms 304 text/css
+INFO  2018-01-14 22:39:06,011 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/Components/TenantChange/Default.js'. Physical path: 'F:\Workspace\Neha\RagoMoney\Code\src\RagoMoney.Web.Mvc\wwwroot\view-resources\Views\Shared\Components\TenantChange\Default.js'
+INFO  2018-01-14 22:39:06,054 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2018-01-14 22:39:06,085 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 472.4392ms 200 application/javascript
+INFO  2018-01-14 22:39:06,332 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2018-01-14 22:39:06,604 [6    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-01-14 22:39:06,618 [24   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-01-14 22:39:06,636 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 492.3185ms
+INFO  2018-01-14 22:39:06,664 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 835.3779ms
+INFO  2018-01-14 22:39:06,691 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1093.7815ms 200 application/x-javascript; charset=utf-8
+INFO  2018-01-14 22:39:06,721 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1054.4403ms 200 text/plain; charset=utf-8
+INFO  2018-01-14 22:39:07,914 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/Account/Login application/x-www-form-urlencoded 265
+INFO  2018-01-14 22:39:08,286 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method RagoMoney.Web.Controllers.AccountController.Login (RagoMoney.Web.Mvc) with arguments (RagoMoney.Web.Models.Account.LoginViewModel, /Dashboard, ) - ModelState is Valid
+INFO  2018-01-14 22:39:09,508 [21   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed in.
+INFO  2018-01-14 22:39:09,890 [4    ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-01-14 22:39:09,921 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action RagoMoney.Web.Controllers.AccountController.Login (RagoMoney.Web.Mvc) in 1975.3462ms
+INFO  2018-01-14 22:39:09,930 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2014.0724ms 200 application/json; charset=utf-8
+INFO  2018-01-14 22:39:09,958 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Dashboard  
+INFO  2018-01-14 22:39:10,025 [17   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-01-14 22:39:10,090 [17   ] uthorization.DefaultAuthorizationService - Authorization was successful for user: admin.
+INFO  2018-01-14 22:39:10,102 [17   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method RagoMoney.Web.Mvc.Controllers.DashboardController.Index (RagoMoney.Web.Mvc) with arguments ((null)) - ModelState is Valid
+INFO  2018-01-14 22:39:10,373 [25   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Dashboard/Index.cshtml.
+INFO  2018-01-14 22:39:13,243 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action RagoMoney.Web.Mvc.Controllers.DashboardController.Index (RagoMoney.Web.Mvc) in 3208.5184ms
+INFO  2018-01-14 22:39:13,254 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3307.3153ms 200 text/html; charset=utf-8
+INFO  2018-01-14 22:39:13,439 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636515662903077598  
+INFO  2018-01-14 22:39:13,449 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636515662903077598  
+INFO  2018-01-14 22:39:13,466 [17   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-01-14 22:39:13,514 [4    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-01-14 22:39:13,570 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2018-01-14 22:39:13,589 [4    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-01-14 22:39:13,761 [17   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2018-01-14 22:39:13,793 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/font-awesome/fonts/fontawesome/fontawesome-webfont.woff2?v=4.7.0  
+INFO  2018-01-14 22:39:13,814 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 74.5226ms
+INFO  2018-01-14 22:39:13,842 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 404.9123ms 200 text/plain; charset=utf-8
+INFO  2018-01-14 22:39:13,856 [17   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-01-14 22:39:13,882 [17   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 390.4854ms
+INFO  2018-01-14 22:39:13,933 [5    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-01-14 22:39:13,979 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 172.9839ms 404 
+INFO  2018-01-14 22:39:13,987 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 470.0053ms 200 application/x-javascript; charset=utf-8
+INFO  2018-01-14 22:39:14,045 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/font-awesome/fonts/fontawesome/fontawesome-webfont.woff?v=4.7.0  
+INFO  2018-01-14 22:39:14,065 [17   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-01-14 22:39:14,078 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 32.132ms 404 
+INFO  2018-01-14 22:39:14,843 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/font-awesome/fonts/fontawesome/fontawesome-webfont.ttf?v=4.7.0  
+INFO  2018-01-14 22:39:14,868 [24   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-01-14 22:39:14,887 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 106.438ms 404 
+INFO  2018-01-14 22:39:21,853 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Account/Logout  
+INFO  2018-01-14 22:39:21,880 [6    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-01-14 22:39:21,897 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method RagoMoney.Web.Controllers.AccountController.Logout (RagoMoney.Web.Mvc) with arguments ((null)) - ModelState is Valid
+INFO  2018-01-14 22:39:21,929 [6    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed out.
+INFO  2018-01-14 22:39:21,953 [6    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.External signed out.
+INFO  2018-01-14 22:39:21,959 [6    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.TwoFactorUserId signed out.
+INFO  2018-01-14 22:39:22,057 [4    ] ft.AspNetCore.Mvc.RedirectToActionResult - Executing RedirectResult, redirecting to /Account/Login.
+INFO  2018-01-14 22:39:22,064 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action RagoMoney.Web.Controllers.AccountController.Logout (RagoMoney.Web.Mvc) in 171.8908ms
+INFO  2018-01-14 22:39:22,093 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 218.4695ms 302 
+INFO  2018-01-14 22:39:22,095 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Account/Login  
+INFO  2018-01-14 22:39:22,131 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method RagoMoney.Web.Controllers.AccountController.Login (RagoMoney.Web.Mvc) with arguments (, , ) - ModelState is Valid
+INFO  2018-01-14 22:39:22,142 [17   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Account/Login.cshtml.
+INFO  2018-01-14 22:39:22,175 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action RagoMoney.Web.Controllers.AccountController.Login (RagoMoney.Web.Mvc) in 65.3486ms
+INFO  2018-01-14 22:39:22,219 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 106.7503ms 200 text/html; charset=utf-8
+INFO  2018-01-14 22:39:22,286 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/Components/TenantChange/Default.js?v=636515663621672968  
+INFO  2018-01-14 22:39:22,301 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636515662903077598  
+INFO  2018-01-14 22:39:22,331 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636515662903077598  
+INFO  2018-01-14 22:39:22,372 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2018-01-14 22:39:22,397 [17   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2018-01-14 22:39:22,428 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/Components/TenantChange/Default.js'. Physical path: 'F:\Workspace\Neha\RagoMoney\Code\src\RagoMoney.Web.Mvc\wwwroot\view-resources\Views\Shared\Components\TenantChange\Default.js'
+INFO  2018-01-14 22:39:22,444 [17   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-01-14 22:39:22,465 [21   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-01-14 22:39:22,491 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 156.9552ms
+INFO  2018-01-14 22:39:22,543 [17   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 104.0483ms
+INFO  2018-01-14 22:39:22,559 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 286.3124ms 200 application/x-javascript; charset=utf-8
+INFO  2018-01-14 22:39:22,584 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 337.6932ms 200 text/plain; charset=utf-8
+INFO  2018-01-14 22:39:22,592 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 226.7261ms 200 application/javascript
