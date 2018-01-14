@@ -1,0 +1,23 @@
+﻿The document contains basic flow and work in progress of the project.
+
+Requirements:
+1. Login for Admin/Distributor/Retailer/User.
+2. Landing dashboard is different as per login type.
+3. Any registeration to site is user type registration.
+4. Any one wants to become a Retailer, have to fill a request form.
+5. Retailer request form is send to admin of site. and then he contacted to distributor related the request.
+6. Distributor do all the work for new retailer and set his UserId and Password.
+
+
+
+
+Working:
+1. A new Role & Permission (" Distributor ") is created and assigned to Default tenant.
+2. New items were added to left menu for Distributor Permission Name.
+3. A new Role & Permission ("Retailer") is created.
+4. Created a user and assign Retailer role to him.
+
+
+Folder : Retailer:
+1. Images shows different navigations for portal.
+2. Depending upon the screens the next working is going on.
