@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace RagoMoney.Web.Controllers
 {
-    [AbpMvcAuthorize]
+   // [AbpMvcAuthorize]
     public class HomeController : RagoMoneyControllerBase
     {
         public ActionResult Index()
