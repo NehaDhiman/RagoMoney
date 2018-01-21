@@ -9,5 +9,6 @@
         public const string Roles = "Roles";
         public const string RetailersDetails = "Retailers Details";
         public const string Dashboard = "Dashboard";
+        public const string MoneyTransfer = "MoneyTransfer";
     }
 }

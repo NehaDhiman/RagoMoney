@@ -79,9 +79,37 @@ namespace RagoMoney.Web.Startup
             #region Transaction Sub Menu
                     .AddItem(
                         new MenuItemDefinition(
-                            "Option1",
-                            new FixedLocalizableString("Option1"),
-                            url: "#"
+                            "Transaction",
+                            new FixedLocalizableString("Transaction"),
+                            icon: "menu",
+                            requiredPermissionName: PermissionNames.Pages_Distributor
+                        )
+                        .AddItem(
+                            new MenuItemDefinition(
+                                  PageNames.MoneyTransfer,
+                                 new FixedLocalizableString(PageNames.MoneyTransfer),
+                                  icon: "money",
+                                 requiredPermissionName: PermissionNames.Pages_Distributor
+                                )
+                            )
+                        .AddItem(
+                            new MenuItemDefinition(
+                                "Option1",
+                                new FixedLocalizableString("Option1"),
+                                url: "#"
+                            )
+                        ).AddItem(
+                            new MenuItemDefinition(
+                                "Option2",
+                                new FixedLocalizableString("Option2"),
+                                url: "#"
+                            )
+                        ).AddItem(
+                            new MenuItemDefinition(
+                                "Option3",
+                                new FixedLocalizableString("Option3"),
+                                url: "#"
+                            )
                         )
                     ).AddItem(
                         new MenuItemDefinition(

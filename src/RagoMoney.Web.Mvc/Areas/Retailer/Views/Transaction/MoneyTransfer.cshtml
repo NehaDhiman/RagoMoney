@@ -1,0 +1,66 @@
+﻿@using RagoMoney.Web.Startup
+@{
+    ViewBag.CurrentPageName = PageNames.MoneyTransfer; //The menu item will be active for this page.
+}
+
+<div class="row clearfix">
+    <div class="col-lg- col-md-6 col-sm-12 col-xs-12">
+        <div class="card">
+            <div class="header">
+                <h2>
+                    Money Transfer
+                </h2>
+            </div>
+            <div class="body">
+                <form name="moneyTransfer" role="form" novalidate="novalidate" class="form-validation">
+                    <div class="row clearfix">
+                        <div class="col-sm-12">
+                            <div class="form-group form-float">
+                                <div class="form-line">
+                                    <input class="form-control" type="text" name="RecipientName" required="" maxlength="32" minlength="2">
+                                    <label class="form-label">Recipient Name</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row clearfix">
+                        <div class="col-sm-12">
+                            <div class="form-group form-float">
+                                <div class="form-line">
+                                    <input type="text" name="AccountNumber" class="form-control" required="" maxlength="32" aria-required="true">
+                                    <label class="form-label">Account Number</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="form-group form-float">
+                                <div class="form-line">
+                                    <input type="text" name="ReAccountNumber" class="form-control" required="" maxlength="32" aria-required="true">
+                                    <label class="form-label">Re-enter Account Number</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row clearfix">
+                        <div class="col-sm-12">
+                            <div class="form-group form-float">
+                                <div class="form-line">
+                                    <input type="email" name="IFSC" class="form-control" required="" maxlength="256" aria-required="true">
+                                    <label class="form-label">IFSC</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row clearfix">
+                        <div class="col-sm-12">
+                            <div class="form-group form-float">
+                                <button type="button" class="btn btn-default waves-effect">Cancel</button>
+                                <button type="submit" class="btn btn-primary waves-effect">Save</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div><!--end .card-body -->
+        </div>
+    </div>
+</div>
