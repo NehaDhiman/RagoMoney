@@ -75,7 +75,16 @@ namespace RagoMoney.Web.Startup
                             new FixedLocalizableString("Transaction"),
                             icon: "menu",
                             requiredPermissionName: PermissionNames.Pages_Distributor
-                        ).AddItem(
+                        )
+                        .AddItem(
+                            new MenuItemDefinition(
+                                  PageNames.MoneyTransfer,
+                                 new FixedLocalizableString(PageNames.MoneyTransfer),
+                                  icon: "money",
+                                 requiredPermissionName: PermissionNames.Pages_Distributor
+                                )
+                            )
+                        .AddItem(
                             new MenuItemDefinition(
                                 "Option1",
                                 new FixedLocalizableString("Option1"),

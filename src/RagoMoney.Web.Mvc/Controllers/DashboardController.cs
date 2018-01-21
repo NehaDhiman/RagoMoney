@@ -15,5 +15,10 @@ namespace RagoMoney.Web.Mvc.Controllers
         {
             return View();
         }
+        [HttpGet]
+        public IActionResult TransferMoney()
+        {
+            return View();
+        }
     }
 }
