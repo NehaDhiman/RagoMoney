@@ -1,0 +1,221 @@
+﻿@using RagoMoney.Web.Startup
+@{
+    ViewBag.CurrentPageName = PageNames.MoneyTransfer;
+}
+
+<div class="row clearfix">
+    <div class="col-lg- col-md-6 col-sm-12 col-xs-12">
+        <div class="card">
+            <div class="header">
+                <h2>
+                    Recharge
+                </h2>
+            </div>
+            <div class="body" id="rechargePage">
+                <ul class="nav nav-tabs tab-nav-right" role="tablist">
+                    <li role="presentation" class="active"><a href="#mobile-prepaid" data-toggle="tab">Mobile Prepaid</a></li>
+                    <li role="presentation"><a href="#mobile-postpaid" data-toggle="tab">Mobile Postpaid</a></li>
+                    <li role="presentation"><a href="#dth-tab" data-toggle="tab">DTH</a></li>
+                    <li role="presentation"><a href="#datacard" data-toggle="tab">Datacard</a></li>
+                </ul>
+                <div class="tab-content m-t-15">
+                    <div role="tabpanel" class="tab-pane animated fadeIn active" id="mobile-prepaid">
+                        <form name="MobileRecharge" role="form" novalidate="novalidate" class="form-validation">
+                            <div class="row clearfix">
+                                <div class="col-sm-12">
+                                    <div class="form-group form-float">
+                                        <div class="form-line">
+                                            <input class="form-control" type="text" name="MobileNumber" required="" maxlength="32" minlength="2">
+                                            <label class="form-label">Mobile Number</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row clearfix">
+                                <div class="col-sm-12">
+                                    <div class="form-group form-float">
+                                        <div class="form-line">
+                                            <input class="form-control" type="text" name="Operator" required="" maxlength="32" minlength="2">
+                                            <label class="form-label">Operator</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="form-group form-float">
+                                        <div class="form-line">
+                                            <input type="text" name="Circle" class="form-control" required="" maxlength="32" aria-required="true">
+                                            <label class="form-label">Circle</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row clearfix">
+                                <div class="col-sm-12">
+                                    <div class="form-group form-float">
+                                        <div class="form-line">
+                                            <input type="email" name="Amount" class="form-control" required="" maxlength="256" aria-required="true">
+                                            <label class="form-label">Amount</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row clearfix">
+                                <div class="col-sm-12">
+                                    <div class="form-group form-float">
+                                        <button type="submit" class="btn btn-primary waves-effect">Proceed to Recharge</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div role="tabpanel" class="tab-pane animated fadeIn" id="mobile-postpaid">
+                        <form name="MobileBillPayment" role="form" novalidate="novalidate" class="form-validation">
+                            <div class="row clearfix">
+                                <div class="col-sm-12">
+                                    <div class="form-group form-float">
+                                        <div class="form-line">
+                                            <input class="form-control" type="text" name="MobileNumber" required="" maxlength="32" minlength="2">
+                                            <label class="form-label">Mobile Number</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row clearfix">
+                                <div class="col-sm-12">
+                                    <div class="form-group form-float">
+                                        <div class="form-line">
+                                            <input class="form-control" type="text" name="Operator" required="" maxlength="32" minlength="2">
+                                            <label class="form-label">Operator</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="form-group form-float">
+                                        <div class="form-line">
+                                            <input type="text" name="Circle" class="form-control" required="" maxlength="32" aria-required="true">
+                                            <label class="form-label">Circle</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row clearfix">
+                                <div class="col-sm-12">
+                                    <div class="form-group form-float">
+                                        <div class="form-line">
+                                            <input type="email" name="Amount" class="form-control" required="" maxlength="256" aria-required="true">
+                                            <label class="form-label">Amount</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row clearfix">
+                                <div class="col-sm-12">
+                                    <div class="form-group form-float">
+                                        <button type="submit" class="btn btn-primary waves-effect">Proceed to Recharge</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div role="tabpanel" class="tab-pane animated fadeIn" id="dth-tab">
+                        <form name="DTHRecharge" role="form" novalidate="novalidate" class="form-validation">
+                            <div class="row clearfix">
+                                <div class="col-sm-12">
+                                    <div class="form-group form-float">
+                                        <div class="form-line">
+                                            <input class="form-control" type="text" name="Operator" required="" maxlength="32" minlength="2">
+                                            <label class="form-label">Operator</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-12">
+                                    <div class="form-group form-float">
+                                        <div class="form-line">
+                                            <input class="form-control" type="text" name="CustomerId" required="" maxlength="32" minlength="2">
+                                            <label class="form-label">Customer Id</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="form-group form-float">
+                                        <div class="form-line">
+                                            <input type="text" name="CustomerMobilerNo" class="form-control" required="" maxlength="32" aria-required="true">
+                                            <label class="form-label">Customer Mobile No.</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row clearfix">
+                                <div class="col-sm-12">
+                                    <div class="form-group form-float">
+                                        <div class="form-line">
+                                            <input type="text" name="Amount" class="form-control" required="" maxlength="256" aria-required="true">
+                                            <label class="form-label">Amount</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row clearfix">
+                                <div class="col-sm-12">
+                                    <div class="form-group form-float">
+                                        <button type="submit" class="btn btn-primary waves-effect">Proceed to Recharge</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div role="tabpanel" class="tab-pane animated fadeIn" id="datacard">
+                        <form name="DatacardRecharge" role="form" novalidate="novalidate" class="form-validation">
+                            <div class="row clearfix">
+                                <div class="col-sm-12">
+                                    <div class="form-group form-float">
+                                        <div class="form-line">
+                                            <input class="form-control" type="text" name="DatacardNumber" required="" maxlength="32" minlength="2">
+                                            <label class="form-label">Datacard Number</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row clearfix">
+                                <div class="col-sm-12">
+                                    <div class="form-group form-float">
+                                        <div class="form-line">
+                                            <input class="form-control" type="text" name="Operator" required="" maxlength="32" minlength="2">
+                                            <label class="form-label">Operator</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="form-group form-float">
+                                        <div class="form-line">
+                                            <input type="text" name="Circle" class="form-control" required="" maxlength="32" aria-required="true">
+                                            <label class="form-label">Circle</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row clearfix">
+                                <div class="col-sm-12">
+                                    <div class="form-group form-float">
+                                        <div class="form-line">
+                                            <input type="email" name="Amount" class="form-control" required="" maxlength="256" aria-required="true">
+                                            <label class="form-label">Amount</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row clearfix">
+                                <div class="col-sm-12">
+                                    <div class="form-group form-float">
+                                        <button type="submit" class="btn btn-primary waves-effect">Proceed to Recharge</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

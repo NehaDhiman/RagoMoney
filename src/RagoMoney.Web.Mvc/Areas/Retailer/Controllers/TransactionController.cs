@@ -14,6 +14,11 @@ namespace RagoMoney.Web.Mvc.Areas.Retailer.Controllers
     [AbpMvcAuthorize]
     public class TransactionController : RagoMoneyControllerBase
     {
+        [HttpGet]
+        public ActionResult Recharge() 
+        {
+            return View("MobileRecharge");
+        }
        
         [HttpGet]
         public ActionResult MoneyTransfer()
